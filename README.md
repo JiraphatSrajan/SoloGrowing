@@ -143,12 +143,3 @@ Repository นี้ใช้สำหรับอธิบายโปรเจ
 ## 👤 Developer
 
 **Jiraphat Srajan (จิรภัทร สระจันทร์)**
-
-นักศึกษาชั้นปีที่ 4 สาขา Information and Communication Technology (ICT) มหาวิทยาลัยศรีปทุม
-
-สนใจด้าน Web Development, Application Development, UX/UI Design และ AI-Assisted Development
-## 🎬 วิดีโอตัวอย่าง
-[เปิดดู Preview App (MP4)](https://github.com/JiraphatSrajan/SoloGrowing/raw/refs/heads/main/PreviewApp.mp4)
-### ▶️ เล่นวิดีโอ Preview App
-<video controls width="100%" src="https://github.com/JiraphatSrajan/SoloGrowing/raw/main/PreviewApp.mp4"></video>
-[เปิดวิดีโอในเบราว์เซอร์](https://github.com/JiraphatSrajan/SoloGrowing/raw/main/PreviewApp.mp4)
