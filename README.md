@@ -32,7 +32,7 @@ This public repository is a portfolio overview for the project. The application 
 
 [Open the Solo Growing preview](https://solo-growing-jiraphat.boss596305.chatgpt.site)
 
-The preview is currently private. A public demo link will be added when the sharing setting is changed.
+The preview is publicly accessible through the link above. The application source code remains private.
 
 ## Data and Privacy
 
