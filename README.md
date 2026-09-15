@@ -1,62 +1,108 @@
-# Solo Growing
+# 🌐 Solo Growing — เว็บพัฒนาตัวเองในรูปแบบ RPG
 
-RPG-inspired self-development application that turns daily activities into quests, experience points, character progression, and rewards.
+> แอปพลิเคชันสำหรับติดตามการพัฒนาตัวเองผ่านระบบเควสต์ (Quest) คะแนนประสบการณ์ (XP) เงินรางวัล และการเติบโตของตัวละคร ออกแบบให้กิจวัตรประจำวันมีโครงสร้างและติดตามความคืบหน้าได้ง่ายขึ้น
 
-## Project Overview
+- **Live Preview:** [เปิด Solo Growing](https://solo-growing-jiraphat.boss596305.chatgpt.site)
+- **Repository:** [JiraphatSrajan/SoloGrowing](https://github.com/JiraphatSrajan/SoloGrowing)
+- **แพลตฟอร์ม:** React + Vite Web Application
+- **สถานะ:** Public preview สำหรับสาธิตโปรเจกต์
 
-Solo Growing is designed to make personal routines easier to track through a game-inspired interface. Users can complete daily and side quests, earn XP and gold, develop character statistics, and review their progress over time.
+## 📋 Project Overview
 
-This public repository is a portfolio overview for the project. The application source code is maintained privately.
+Solo Growing เป็นเว็บแอปพลิเคชันที่นำแนวคิดจากเกม RPG มาประยุกต์กับการพัฒนาตัวเอง ผู้ใช้สามารถบันทึกกิจกรรมในรูปแบบเควสต์ รับ XP และ Gold พัฒนาค่าสถานะของตัวละคร และติดตามประวัติการทำกิจกรรมผ่านหน้าจอเดียว
 
-## Features
+แนวคิดหลักของโปรเจกต์คือการเปลี่ยนกิจวัตรที่ทำเป็นประจำให้กลายเป็นเป้าหมายที่เห็นความคืบหน้าได้ชัดเจน โดยเน้นการใช้งานที่เข้าใจง่ายและเหมาะกับการติดตามด้วยตนเอง
 
-- Daily, side, and challenge quests
-- XP, levels, ranks, and character statistics
-- Gold rewards, inventory, equipment, and shop systems
-- Gate and dungeon progression
-- Shadow companion progression
-- Calendar, activity history, notes, and progress summaries
-- Browser-based progress saving
-- JSON backup and restore with basic validation
-- Responsive layout for desktop and mobile screens
+Repository นี้จัดทำเป็นหน้าแนะนำโปรเจกต์สำหรับ Portfolio ส่วนโค้ดต้นฉบับของแอปพลิเคชันไม่ได้เผยแพร่ใน Repository สาธารณะนี้
 
-## Technology
+## 🎮 Core Features
 
-- React
-- JavaScript (JSX)
-- Vite
-- CSS and inline SVG
-- Browser `localStorage`
+### Quest และ Progression
 
-## Live Preview
+- เควสต์ประจำวัน (Daily Quest)
+- เควสต์เสริม (Side Quest)
+- เควสต์ท้าทาย (Challenge Quest)
+- ระบบ XP, Level และ Rank
+- ค่าสถานะตัวละคร เช่น STR, VIT, AGI และ INT
 
-[Open the Solo Growing preview](https://solo-growing-jiraphat.boss596305.chatgpt.site)
+### Reward และระบบตัวละคร
 
-The preview is publicly accessible through the link above. The application source code remains private.
+- Gold และรางวัลจากการทำเควสต์
+- Inventory สำหรับจัดการไอเท็ม
+- Equipment และระบบเพิ่มค่าสถานะ
+- Shop สำหรับแลกเปลี่ยนไอเท็ม
+- Shadow Companion และความก้าวหน้าของตัวละคร
 
-## Data and Privacy
+### Gate และ Dungeon
 
-The current application stores progress locally in the browser. It does not use account login, a cloud database, or cross-device synchronization.
+- Gate สำหรับปลดล็อกความท้าทายตามระดับ
+- Dungeon ที่แบ่งเป็นรอบการทดสอบ
+- รางวัลและไอเท็มจากการผ่านด่าน
 
-Use the in-app Export option to create a backup before clearing browser data or changing devices.
+### การติดตามข้อมูล
 
-## Current Status
+- Calendar และประวัติกิจกรรม
+- Notes สำหรับบันทึกข้อมูลเพิ่มเติม
+- Progress Summary สำหรับดูภาพรวม
+- ระบบ Export และ Import ข้อมูลในรูปแบบ JSON
+- รองรับการแสดงผลบน Desktop และ Mobile
 
-The portfolio version has been adapted into a Vite project and tested for:
+## 🔁 User Flow
 
-- Player onboarding
-- Quest completion and XP/gold rewards
-- Persistence after refresh
-- Backup validation and restore
-- Main navigation
-- Mobile layout at 390 px
+1. เริ่มต้นโปรไฟล์ผู้เล่น
+2. เลือกเควสต์จากรายการที่มี
+3. ทำเควสต์และรับ XP หรือ Gold
+4. ใช้ความก้าวหน้าเพื่อพัฒนาระดับและค่าสถานะ
+5. ตรวจสอบประวัติและสรุปผลการใช้งาน
+6. Export ข้อมูลเพื่อเก็บเป็นข้อมูลสำรองเมื่อจำเป็น
 
-Further testing and public demo preparation are ongoing.
+## 🛠️ Technology
 
-## Developer
+| ด้าน | เทคโนโลยี |
+| --- | --- |
+| Frontend | React, JavaScript (JSX) |
+| Build Tool | Vite |
+| Styling | CSS และ Inline SVG |
+| Data Storage | Browser Storage |
+| Deployment | ChatGPT Sites Public Preview |
+
+## 💾 Data และ Privacy
+
+- ความคืบหน้าของผู้ใช้จัดเก็บในพื้นที่จัดเก็บของเบราว์เซอร์
+- ยังไม่มีระบบบัญชีผู้ใช้หรือการซิงก์ข้อมูลข้ามอุปกรณ์
+- มีฟังก์ชัน Export และ Import สำหรับสำรองและกู้คืนข้อมูล
+- ควร Export ข้อมูลก่อนล้างข้อมูลเบราว์เซอร์หรือเปลี่ยนอุปกรณ์
+- โค้ดต้นฉบับของแอปพลิเคชันไม่ได้อยู่ใน Repository สาธารณะนี้
+
+## 📱 วิธีเปิดดู Preview
+
+1. เปิด [Solo Growing Preview](https://solo-growing-jiraphat.boss596305.chatgpt.site)
+2. เริ่มต้นข้อมูลผู้เล่น
+3. เลือกเควสต์ที่ต้องการทำ
+4. ทำเครื่องหมายเควสต์เมื่อเสร็จแล้ว
+5. ตรวจสอบ XP, Gold, Level และสรุปความคืบหน้า
+
+## 📌 Current Status
+
+- เปิดให้เข้าชมผ่าน Public Preview แล้ว
+- มีระบบเควสต์และการคำนวณความก้าวหน้าของตัวละคร
+- รองรับการบันทึกข้อมูลและการสำรองข้อมูลผ่าน JSON
+- รองรับการใช้งานบนหน้าจอ Desktop และ Mobile
+- อยู่ระหว่างการปรับปรุงรายละเอียดและเตรียมเอกสารของโปรเจกต์เพิ่มเติม
+
+## 📁 Repository Structure
+
+```
+SoloGrowing/
+└── README.md    หน้าแนะนำโปรเจกต์และลิงก์ Preview
+```
+
+Repository นี้ใช้สำหรับอธิบายโปรเจกต์และแสดงลิงก์สาธิต โดยไม่เผยแพร่โค้ดต้นฉบับของแอปพลิเคชัน
+
+## 👤 Developer
 
 **Jiraphat Srajan (จิรภัทร สระจันทร์)**
 
-Fourth-year Information and Communication Technology (ICT) student at Sripatum University.
+นักศึกษาชั้นปีที่ 4 สาขา Information and Communication Technology (ICT) มหาวิทยาลัยศรีปทุม
 
-Interested in Web Development, UX/UI Design, AI-Assisted Development, and Workflow Automation.
+สนใจด้าน Web Development, UX/UI Design, AI-Assisted Development และ Workflow Automation
