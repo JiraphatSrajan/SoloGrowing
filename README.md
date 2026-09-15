@@ -1,8 +1,11 @@
 # 🌐 Solo Growing — เว็บพัฒนาตัวเองในรูปแบบ RPG
 
+<p align="center">
+  <a href="https://solo-growing-jiraphat.boss596305.chatgpt.site"><strong>🚀 เปิดดู Solo Growing Preview →</strong></a>
+</p>
+
 > แอปพลิเคชันสำหรับติดตามการพัฒนาตัวเองผ่านระบบเควสต์ (Quest) คะแนนประสบการณ์ (XP) เงินรางวัล และการเติบโตของตัวละคร ออกแบบให้กิจวัตรประจำวันมีโครงสร้างและติดตามความคืบหน้าได้ง่ายขึ้น
 
-- **Live Preview:** [เปิด Solo Growing](https://solo-growing-jiraphat.boss596305.chatgpt.site)
 - **Repository:** [JiraphatSrajan/SoloGrowing](https://github.com/JiraphatSrajan/SoloGrowing)
 - **แพลตฟอร์ม:** React + Vite Web Application
 - **สถานะ:** Public preview สำหรับสาธิตโปรเจกต์
@@ -76,7 +79,7 @@ Repository นี้จัดทำเป็นหน้าแนะนำโป
 
 ## 📱 วิธีเปิดดู Preview
 
-1. เปิด [Solo Growing Preview](https://solo-growing-jiraphat.boss596305.chatgpt.site)
+1. กดปุ่ม **🚀 เปิดดู Solo Growing Preview** ด้านบน
 2. เริ่มต้นข้อมูลผู้เล่น
 3. เลือกเควสต์ที่ต้องการทำ
 4. ทำเครื่องหมายเควสต์เมื่อเสร็จแล้ว
