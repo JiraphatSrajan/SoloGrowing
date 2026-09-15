@@ -109,4 +109,4 @@ Repository นี้ใช้สำหรับอธิบายโปรเจ
 
 นักศึกษาชั้นปีที่ 4 สาขา Information and Communication Technology (ICT) มหาวิทยาลัยศรีปทุม
 
-สนใจด้าน Web Development, Application Development, UX/UI Design, AI-Assisted Development และ Workflow Automation
+สนใจด้าน Web Development, Application Development, UX/UI Design และ AI-Assisted Development
