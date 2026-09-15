@@ -47,7 +47,7 @@ Repository นี้จัดทำเป็นหน้าแนะนำโป
 - Calendar และประวัติกิจกรรม
 - Notes สำหรับบันทึกข้อมูลเพิ่มเติม
 - Progress Summary สำหรับดูภาพรวม
-- ระบบ Export และ Import ข้อมูลในรูปแบบ JSON
+- ระบบ Export ข้อมูลออกจากแอป และ Import ข้อมูล JSON กลับเข้าแอป
 - รองรับการแสดงผลบน Desktop และ Mobile
 
 ## 🔁 User Flow
@@ -66,14 +66,15 @@ Repository นี้จัดทำเป็นหน้าแนะนำโป
 | Frontend | React, JavaScript (JSX) |
 | Build Tool | Vite |
 | Styling | CSS และ Inline SVG |
-| Data Storage | Browser Storage |
+| Data Storage | Browser Storage + JSON Export/Import |
+| Development Environment | Visual Studio Code |
 | Deployment | ChatGPT Sites Public Preview |
 
 ## 💾 Data และ Privacy
 
 - ความคืบหน้าของผู้ใช้จัดเก็บในพื้นที่จัดเก็บของเบราว์เซอร์
 - ยังไม่มีระบบบัญชีผู้ใช้หรือการซิงก์ข้อมูลข้ามอุปกรณ์
-- มีฟังก์ชัน Export และ Import สำหรับสำรองและกู้คืนข้อมูล
+- มีฟังก์ชัน Export และ Import สำหรับสำรองและกู้คืนข้อมูลผ่านไฟล์ JSON
 - ควร Export ข้อมูลก่อนล้างข้อมูลเบราว์เซอร์หรือเปลี่ยนอุปกรณ์
 - โค้ดต้นฉบับของแอปพลิเคชันไม่ได้อยู่ใน Repository สาธารณะนี้
 
