@@ -50,6 +50,32 @@ Repository นี้จัดทำเป็นหน้าแนะนำโป
 - ระบบ Export ข้อมูลออกจากแอป และ Import ข้อมูล JSON กลับเข้าแอป
 - รองรับการแสดงผลบน Desktop และ Mobile
 
+## 🖼️ ระบบหลักของแอป
+
+Solo Growing มีระบบย่อยหลายส่วนที่เชื่อมต่อกัน เพื่อเปลี่ยนการพัฒนาตัวเองให้เป็นประสบการณ์แบบ RPG และสามารถทดลองใช้งานได้จาก [Live Preview](https://solo-growing-jiraphat.boss596305.chatgpt.site/)
+
+- ระบบเควสต์หลัก เควสต์เสริม และเควสต์บังคับ
+- Status, Level, XP, HP, Rank และค่าสถานะตัวละคร
+- Muscle System สำหรับบันทึกน้ำหนักและพัฒนาร่างกาย
+- Shop, Inventory และ Equipment
+- Gate และ Dungeon สำหรับความท้าทายแบบเป็นด่าน
+- Calendar, Monthly Goal และ Personal Records
+- First Login สำหรับตั้งค่าโปรไฟล์ครั้งแรก
+
+### ภาพตัวอย่างระบบ
+
+| ระบบ | ภาพตัวอย่าง |
+| --- | --- |
+| หน้าหลักเควส | <img src="assets/quest-dashboard.png" alt="หน้าหลักเควส" width="320"> |
+| Status และรายงานความก้าวหน้า | <img src="assets/status-report.png" alt="หน้าสถานะและรายงาน" width="320"> |
+| Muscle System | <img src="assets/muscle-system.png" alt="ระบบมวลกล้ามเนื้อ" width="320"> |
+| Shop และไอเท็ม | <img src="assets/shop-and-items.png" alt="ร้านค้าและไอเท็ม" width="320"> |
+| Gate และ Dungeon | <img src="assets/dungeon.png" alt="ระบบดันเจี้ยน" width="320"> |
+| Calendar และ Records | <img src="assets/calendar-and-records.png" alt="ปฏิทินและบันทึกประจำวัน" width="320"> |
+| First Login | <img src="assets/first-login.png" alt="หน้าล็อกอินครั้งแรก" width="320"> |
+
+> ภาพเหล่านี้เป็นหลักฐานการออกแบบและการทำงานของระบบใน Public Preview โดยยังมีระบบอื่น ๆ ให้ทดลองเพิ่มเติมในแอป
+
 ## 🔁 User Flow
 
 1. เริ่มต้นโปรไฟล์ผู้เล่น
