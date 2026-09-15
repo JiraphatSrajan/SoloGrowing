@@ -26,6 +26,7 @@ Repository นี้จัดทำเป็นหน้าแนะนำโป
 - เควสต์เสริม (Side Quest)
 - เควสต์ท้าทาย (Challenge Quest)
 - ระบบ XP, Level และ Rank
+- ทหารเงา คอยเฝ้าติดตาม
 - ค่าสถานะตัวละคร เช่น STR, VIT, AGI และ INT
 
 ### Reward และระบบตัวละคร
