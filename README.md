@@ -1,16 +1,16 @@
-# 🌐 Solo Growing — เว็บพัฒนาตัวเองในรูปแบบ RPG
+# Solo Growing — เว็บพัฒนาตัวเองในรูปแบบ RPG
 
 <p align="center">
-  <a href="https://solo-growing-jiraphat.boss596305.chatgpt.site"><strong>🚀 เปิดดู Solo Growing Preview →</strong></a>
+  <a href="https://solo-growing-jiraphat.boss596305.chatgpt.site"><strong>เปิดดู Solo Growing Preview →</strong></a>
 </p>
 
 > แอปพลิเคชันสำหรับติดตามการพัฒนาตัวเองผ่านระบบเควสต์ (Quest) คะแนนประสบการณ์ (XP) เงินรางวัล และการเติบโตของตัวละคร ออกแบบให้กิจวัตรประจำวันมีโครงสร้างและติดตามความคืบหน้าได้ง่ายขึ้น
 
-- **Repository:** [JiraphatSrajan/SoloGrowing](https://github.com/JiraphatSrajan/SoloGrowing)
-- **แพลตฟอร์ม:** React + Vite Web Application
-- **สถานะ:** Public preview สำหรับสาธิตโปรเจกต์
+- **Repository:**[JiraphatSrajan/SoloGrowing](https://github.com/JiraphatSrajan/SoloGrowing)
+- **แพลตฟอร์ม:**React + Vite Web Application
+- **สถานะ:**Public preview สำหรับสาธิตโปรเจกต์
 
-## 📋 Project Overview
+## Project Overview
 
 Solo Growing เป็นเว็บแอปพลิเคชันที่นำแนวคิดจากเกม RPG มาประยุกต์กับการพัฒนาตัวเอง ผู้ใช้สามารถบันทึกกิจกรรมในรูปแบบเควสต์ รับ XP และ Gold พัฒนาค่าสถานะของตัวละคร และติดตามประวัติการทำกิจกรรมผ่านหน้าจอเดียว
 
@@ -18,7 +18,7 @@ Solo Growing เป็นเว็บแอปพลิเคชันที่�
 
 Repository นี้จัดทำเป็นหน้าแนะนำโปรเจกต์สำหรับ Portfolio ส่วนโค้ดต้นฉบับของแอปพลิเคชันไม่ได้เผยแพร่ใน Repository สาธารณะนี้
 
-## 🎮 Core Features
+## Core Features
 
 ### Quest และ Progression
 
@@ -51,7 +51,7 @@ Repository นี้จัดทำเป็นหน้าแนะนำโป
 - ระบบ Export ข้อมูลออกจากแอป และ Import ข้อมูล JSON กลับเข้าแอป
 - รองรับการแสดงผลบน Desktop และ Mobile
 
-## 🖼️ ระบบหลักของแอป
+## ระบบหลักของแอป
 
 Solo Growing มีระบบย่อยหลายส่วนที่เชื่อมต่อกัน เพื่อเปลี่ยนการพัฒนาตัวเองให้เป็นประสบการณ์แบบ RPG และสามารถทดลองใช้งานได้จาก [Live Preview](https://solo-growing-jiraphat.boss596305.chatgpt.site/)
 
@@ -77,7 +77,7 @@ Solo Growing มีระบบย่อยหลายส่วนที่เ�
 
 > ภาพเหล่านี้เป็นหลักฐานการออกแบบและการทำงานของระบบใน Public Preview โดยยังมีระบบอื่น ๆ ให้ทดลองเพิ่มเติมในแอป
 
-## 🔁 User Flow
+## User Flow
 
 1. เริ่มต้นโปรไฟล์ผู้เล่น
 2. เลือกเควสต์จากรายการที่มี
@@ -86,7 +86,7 @@ Solo Growing มีระบบย่อยหลายส่วนที่เ�
 5. ตรวจสอบประวัติและสรุปผลการใช้งาน
 6. Export ข้อมูลเพื่อเก็บเป็นข้อมูลสำรองเมื่อจำเป็น
 
-## ⚙️ หลักการทำงานของระบบ
+## หลักการทำงานของระบบ
 
 1. ผู้ใช้เริ่มต้นข้อมูลโปรไฟล์และค่าสถานะของตัวละคร
 2. ระบบแสดงกิจกรรมในรูปแบบเควสต์ตามประเภทและเงื่อนไขของแต่ละรายการ
@@ -96,7 +96,7 @@ Solo Growing มีระบบย่อยหลายส่วนที่เ�
 6. ระบบบันทึกความคืบหน้าไว้ในพื้นที่จัดเก็บของเบราว์เซอร์
 7. ผู้ใช้สามารถ Export ข้อมูลเป็น JSON และ Import กลับเข้าแอปเพื่อสำรองหรือกู้คืนข้อมูล
 
-## 🛠️ Technology
+## Technology
 
 | ด้าน | เทคโนโลยี |
 | --- | --- |
@@ -107,7 +107,7 @@ Solo Growing มีระบบย่อยหลายส่วนที่เ�
 | Development Environment | Visual Studio Code |
 | Deployment | ChatGPT Sites Public Preview |
 
-## 💾 Data และ Privacy
+## Data และ Privacy
 
 - ความคืบหน้าของผู้ใช้จัดเก็บในพื้นที่จัดเก็บของเบราว์เซอร์
 - ยังไม่มีระบบบัญชีผู้ใช้หรือการซิงก์ข้อมูลข้ามอุปกรณ์
@@ -115,15 +115,15 @@ Solo Growing มีระบบย่อยหลายส่วนที่เ�
 - ควร Export ข้อมูลก่อนล้างข้อมูลเบราว์เซอร์หรือเปลี่ยนอุปกรณ์
 - โค้ดต้นฉบับของแอปพลิเคชันไม่ได้อยู่ใน Repository สาธารณะนี้
 
-## 📱 วิธีเปิดดู Preview
+## วิธีเปิดดู Preview
 
-1. กดปุ่ม **🚀 เปิดดู Solo Growing Preview** ด้านบน
+1. กดปุ่ม **เปิดดู Solo Growing Preview**ด้านบน
 2. เริ่มต้นข้อมูลผู้เล่น
 3. เลือกเควสต์ที่ต้องการทำ
 4. ทำเครื่องหมายเควสต์เมื่อเสร็จแล้ว
 5. ตรวจสอบ XP, Gold, Level และสรุปความคืบหน้า
 
-## 📌 Current Status
+## Current Status
 
 - เปิดให้เข้าชมผ่าน Public Preview แล้ว
 - มีระบบเควสต์และการคำนวณความก้าวหน้าของตัวละคร
@@ -131,7 +131,7 @@ Solo Growing มีระบบย่อยหลายส่วนที่เ�
 - รองรับการใช้งานบนหน้าจอ Desktop และ Mobile
 - อยู่ระหว่างการปรับปรุงรายละเอียดและเตรียมเอกสารของโปรเจกต์เพิ่มเติม
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 SoloGrowing/
@@ -140,6 +140,6 @@ SoloGrowing/
 
 Repository นี้ใช้สำหรับอธิบายโปรเจกต์และแสดงลิงก์สาธิต โดยไม่เผยแพร่โค้ดต้นฉบับของแอปพลิเคชัน
 
-## 👤 Developer
+## Developer
 
 **Jiraphat Srajan (จิรภัทร สระจันทร์)**
